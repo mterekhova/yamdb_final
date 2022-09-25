@@ -82,8 +82,8 @@ class Command(BaseCommand, ABC):
                     name=row[1],
                     slug=row[2]
                 )
-        with open(f'{dir_name}/genre_title.csv', 'r', encoding='UTF-8')\
-                as file:
+        with open(
+                f'{dir_name}/genre_title.csv', 'r', encoding='UTF-8') as file:
             csv_reader = csv.reader(file)
             list_csv = list(csv_reader)
             for row in list_csv[1:]:

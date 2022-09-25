@@ -9,7 +9,7 @@ services:
       - ./.env
   web:
     image: mterekhova/yamdb_final
-    build: mterekhova/yamdb_final
+    build: ../api_yamdb
     restart: always
     volumes:
       - static_value:/app/static/

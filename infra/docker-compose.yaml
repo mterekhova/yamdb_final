@@ -1,4 +1,4 @@
-version: '20.10.18'
+version: '20.10'
 
 services:
   db:

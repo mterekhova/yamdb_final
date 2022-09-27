@@ -122,7 +122,7 @@ docker-compose exec web python manage.py dumpdata > fixtures.json
 Контакты:
 
 ```
-m.terekhova@itfm.ru
+m.terekhova@itfm.ru что-то тут для коммита
 ```
 
 ![example workflow](https://github.com/mterekhova/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)

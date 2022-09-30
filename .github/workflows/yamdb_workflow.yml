@@ -17,6 +17,7 @@ jobs:
     - name: Set up Python
       # Запуск actions setup-python — готового скрипта 
       # для развёртывания окружения Python
+      #ye xnj ;t&
       uses: actions/setup-python@v2
       with:
         # Выбор версии Python

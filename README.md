@@ -126,3 +126,10 @@ m.terekhova@itfm.ru
 ```
 
 ![example workflow](https://github.com/mterekhova/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
+
+
+Развернутый проект можно найти тут:
+
+```
+http://178.154.204.211/
+```

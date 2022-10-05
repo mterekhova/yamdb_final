@@ -11,10 +11,6 @@ services:
     image: mterekhova/test:latest
     ports:
       - "8000:8000"
-    #build:  
-    #  context: ../api_yamdb
-    #  dockerfile: Dockerfile
-    #///
     restart: always
     volumes:
       - static_value:/app/static/
